@@ -1,0 +1,31 @@
+{
+  "name": "Content_Managment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeJohnNelson/Content_Managment2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeJohnNelson/Content_Managment2/issues"
+  },
+  "homepage": "https://github.com/DeJohnNelson/Content_Managment2#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.8",
+    "@types/pg": "^8.15.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "inquirer": "^12.6.3",
+    "pg": "^8.16.0"
+  }
+}
